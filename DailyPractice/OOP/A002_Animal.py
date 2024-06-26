@@ -2,13 +2,15 @@
 class Animal:
     def eat(self):
         print("I am eating")
-    
+
     def sleep(self):
         print("I am sleeping")
+
 
 class Dog(Animal):
     def bark(self):
         print("I am barking")
+
 
 a1 = Animal()
 a1.eat()
