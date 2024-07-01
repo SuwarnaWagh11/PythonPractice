@@ -1,3 +1,31 @@
 
 l1 = [1,2,3,4]
 print(l1)
+list1 = [1, 2, 3, 4, 5, 1, 10]
+list2 = list()
+print(list1, list2)
+list2.append("Suwarna")
+print(list2)
+#list2.clear()
+#print(list2)
+print(list1.count(1))
+a = list1.pop()
+print(a)
+print(list1)
+list1.extend(list2)
+print(list1)
+list1.insert(0, 100)
+print(list1)
+a1 = list1.copy()
+print(a1)
+list1.remove(100)
+print(list1)
+list1.reverse()
+print(list1)
+list1.remove("Suwarna")
+list1.sort()
+print(list1)
+
+list3 = ["A", "Z", "W", "B"]
+list3.sort()
+print(list3)
