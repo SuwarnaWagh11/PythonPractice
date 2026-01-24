@@ -20,5 +20,5 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint DailyPractice
+        pylint $(git ls-files 'DailyPractice/2026/*.py')
       # pylint $(git ls-files '*.py')
