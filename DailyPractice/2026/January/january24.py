@@ -8,3 +8,4 @@ COUNTRY = 'India'
 print('My name is ', NAME, ', my age is ', AGE, 'I love my ', COUNTRY)
 
 # Variable & types
+print("I like python")
